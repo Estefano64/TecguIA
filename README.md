@@ -46,6 +46,26 @@ cp .env.example .env
 
 ## 🎓 Uso
 
+### 🌟 Modo UI Web (Recomendado para Demo)
+
+```bash
+./start_ui.sh
+```
+
+O manualmente:
+```bash
+streamlit run app.py
+```
+
+Acceder a **http://localhost:8501** para la interfaz web completa con:
+- 🎨 Interfaz visual atractiva e intuitiva
+- 📊 Barra de progreso en tiempo real
+- 📥 Drag & drop para videos
+- 👁️ Preview de resultados
+- 📱 Responsive (funciona en móviles)
+
+**Perfecto para la demo de la hackathon!**
+
 ### Modo API (FastAPI)
 
 ```bash
@@ -75,8 +95,11 @@ TecguIA/
 │   │   └── podcast_generator.py # Podcasts
 │   ├── storage.py              # Azure Blob Storage
 │   └── database.py             # Modelos de BD
+├── app.py                      # 🌟 Interfaz Web (Streamlit)
 ├── main.py                     # API FastAPI
 ├── cli.py                      # Interfaz de línea de comandos
+├── start_ui.sh                 # Script para iniciar UI
+├── UI_GUIDE.md                 # Guía completa de la UI
 └── requirements.txt
 ```
 
