@@ -1,0 +1,40 @@
+# Core dependencies
+python-dotenv==1.0.0
+google-generativeai==0.3.2
+mistralai==0.1.0
+
+# Video processing
+yt-dlp==2023.12.30
+moviepy==1.0.3
+
+# Audio processing
+pydub==0.25.1
+SpeechRecognition==3.10.1
+
+# PDF generation
+reportlab==4.0.7
+pypdf2==3.0.1
+
+# Image generation for concept maps
+pillow==10.1.0
+graphviz==0.20.1
+matplotlib==3.8.2
+networkx==3.2.1
+
+# Azure integration
+azure-storage-blob==12.19.0
+azure-identity==1.15.0
+
+# Database
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+
+# API and web framework
+fastapi==0.104.1
+uvicorn==0.24.0
+pydantic==2.5.2
+python-multipart==0.0.6
+
+# Utilities
+requests==2.31.0
+tqdm==4.66.1
